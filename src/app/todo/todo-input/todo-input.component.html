@@ -1,0 +1,8 @@
+<div class="card">
+<form class="todo-form">
+  <mat-form-field class="todo-full-width">
+      <input matInput placeholder="Enter TODO Items" #item>
+          </mat-form-field>
+<button class="todo-btn" mat-raised-button (click)="addItem(item.value);item.value=''">Submit</button>
+        </form>
+      </div>

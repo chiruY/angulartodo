@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="sub-card">
+        <mat-card-title class="heading">TODO List Items</mat-card-title></div>
+        <mat-card class="list-item" *ngFor="let items of todoListItems;let id=index">
+           
+            <div class="list-item-description" [ngClass]="{done: items.completed}">{{items.todo}}</div>
+             
+                <div class="btn">
+                    <button mat-button (click)="onTaskCheck(id)">
+                        <mat-icon [ngClass]="{completed: items.completed}">done</mat-icon>
+                    </button>
+                </div>
+                <div class="btn1">
+                    <button mat-button class="list-item-button" [disabled]="!items.completed" >
+                        <mat-icon color="warn" [ngClass]="{delete: !items.completed}"> delete</mat-icon>
+                    </button></div>
+              
+                </mat-card>
+</div>

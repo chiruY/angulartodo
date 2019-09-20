@@ -1,0 +1,50 @@
+.card {
+  background: #fff;
+  border-radius: 2px;
+  height: auto;
+  margin: 1rem;
+
+  width: 680px;
+  margin-left: 310px;
+}
+.sub-card{
+  background-color: #8000ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+ 
+}
+.heading{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  background-color:#8000ff;
+  
+  color: #fff;
+}
+.list-item-description{
+  width:80%;
+  text-align: left;
+}
+.completed {
+  color: green;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+  font-style: italic;
+}
+
+.delete {
+  color: gray;
+}
+.list-item{
+  display: flex;
+    justify-content: space-between;
+
+}
+
+.list {
+  width: 100%;
+  
+}
