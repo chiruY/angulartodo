@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Todo } from  "/home/bipalbika/Bipal/TODO/src/app/todo/todo.model";
+import { Todo } from  "./todo.model";
 
 @Injectable({
   providedIn: 'root'
